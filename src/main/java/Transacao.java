@@ -2,7 +2,7 @@ public abstract class Transacao {
 
     private String descricao;
     private double valor;
-    String tipo;
+    private String tipo;
 
     public Transacao(String descricao, double valor, String tipo) {
         this.descricao = descricao;
